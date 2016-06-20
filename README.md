@@ -1,7 +1,7 @@
 # modTtest
 Implementation of the modified t-test proposed by Zwiers and von Storch 1995, J.Clim 8
 
-Below is the logic model of the modified t-test
+Below is the logic model of the modified t-test.
 
 ![Logic Model](logic model.png)
 
