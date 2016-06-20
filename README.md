@@ -5,10 +5,6 @@ With high-resolution time series such as pollutant sample (typically 10 s time r
 
 To analyze time series data with significant autocorrelation, Zwiers and von Storch (1995) developed a modified t-test which is an extension of a traditional t-test. The modified t-test corrects for the underestimated standard error in autocorrelated time series by reducing the sample size through a first-order autoregressive process. Therefore, the modified t-test produces less biased noise-to-signal ratio by adjusting the underestimated variance in the measurement due to correlation.
 
-**References**
-
-Zwiers, F. W., & Von Storch, H. (1995). Taking serial correlation into account in tests of the mean. Journal of Climate, 8(2), 336–351. 
-
 
 Below is the logic model of the modified t-test.
 
@@ -32,3 +28,6 @@ Example of calling modTtest function:
 modTtest(vector1, vector2, alternative="two.sided", paired=F)
 ```
 
+**References**
+
+Zwiers, F. W., & Von Storch, H. (1995). Taking serial correlation into account in tests of the mean. Journal of Climate, 8(2), 336–351. 
