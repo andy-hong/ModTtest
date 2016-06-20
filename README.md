@@ -7,7 +7,8 @@ To analyze time series data with significant autocorrelation, Zwiers and von Sto
 
 **References**
 
-Zwiers, F. W., & Von Storch, H. (1995). Taking serial correlation into account in tests of the mean. Journal of Climate, 8(2), 336–351. <a href="http://doi.org/10.1175/1520-0442(1995)008<0336:TSCIAI>2.0.CO;2">http://doi.org/10.1175/1520-0442(1995)008<0336:TSCIAI>2.0.CO;2</a>
+Zwiers, F. W., & Von Storch, H. (1995). Taking serial correlation into account in tests of the mean. Journal of Climate, 8(2), 336–351. 
+
 
 Below is the logic model of the modified t-test.
 
